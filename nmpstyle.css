@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: "poppins";
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins";
+  font-size: 12px;
+  line-height: 2.5em;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "poppins"
+}
+
+h1 {
+  color: #EEE;
+  font-size: 8em;
+  text-align: center;
+  font-weight: 1.5em;
+
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+h3 {
+    color:#EEE;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+    color:#EEE;
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #EEE;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+.create-box {
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #EEE;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #EEE;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+.section-1{
+  background-color:#BC3D67;
+  padding: 200px 0;
+}
+.section-2{
+    background-color:#F0E1E1;
+    padding: 200px 0;
+  }
+  .section-3{
+    background-color:#CB5D33 ;
+    padding: 100px 0;
+  }
+ 
+.img {
+    width: 250;
+    height: 250;
+  }
+.img2 {
+    width: 85px;
+    height:auto;
+  }
+.img3 {
+    width: 20px;
+    height: auto;
+  }
+.flex-container{ 
+    display: flex;
+    margin: 10px;
+}
+.link1 {
+    color: #EEE;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 15px;
+    padding: 100px;
+    margin:20px;
+
+}
+.centrar-img {
+    display: flex;
+    justify-content: center;
+}
